@@ -1,0 +1,66 @@
+{
+  "_note": "Pricing truth as of 2026-11-07, from Patrick's locked Oct 28 pricing ladder: Free $0 / All-Access $20/mo / Pro $200/mo / Label $25/seat/mo (waitlist-gated until roster features ship). PACK METADATA for the storefront (list_packs) -- Stripe prices and the webhook that grants entitlements are NOT live in this package; that is a go-live step (see GO-LIVE-CHECKLIST.md). No customer is charged by this server. Prices in cents, USD.",
+  "packs": [
+    {
+      "buy_url": "https://artispreneur.com/pricing",
+      "id": "artispreneur-free",
+      "includes": [
+        "free-taste skills (5 library skills, see FREE_TASTE_SKILLS in server.py)"
+      ],
+      "interval": null,
+      "name": "Artispreneur Free",
+      "price_cents": 0,
+      "status": "active",
+      "stripe_status": "not_live_in_this_package",
+      "tenant": "artispreneur",
+      "tier_required": "free"
+    },
+    {
+      "buy_url": "https://artispreneur.com/pricing",
+      "id": "artispreneur-all-access",
+      "includes": [
+        "full 385-skill library via MCP",
+        "active Artispreneur music skills (today: pro-registration only; 87 music skills still draft)"
+      ],
+      "interval": "month",
+      "name": "Artispreneur All-Access",
+      "price_cents": 2000,
+      "status": "active",
+      "stripe_status": "not_live_in_this_package",
+      "tenant": "artispreneur",
+      "tier_required": "artispreneur-all-access"
+    },
+    {
+      "buy_url": "https://artispreneur.com/pricing",
+      "id": "artispreneur-pro",
+      "includes": [
+        "everything in All-Access",
+        "Pro-tier capacity/features (per pricing ladder, Oct 28 lock)"
+      ],
+      "interval": "month",
+      "name": "Artispreneur Pro",
+      "price_cents": 20000,
+      "status": "active",
+      "stripe_status": "not_live_in_this_package",
+      "tenant": "artispreneur",
+      "tier_required": "artispreneur-pro"
+    },
+    {
+      "buy_url": "https://artispreneur.com/pricing",
+      "id": "artispreneur-label",
+      "includes": [
+        "everything in Pro",
+        "roster workspace (when shipped)"
+      ],
+      "interval": "month",
+      "name": "Artispreneur Label",
+      "note": "Waitlist-gated until roster features ship (Oct 28 lock).",
+      "per": "seat",
+      "price_cents": 2500,
+      "status": "active",
+      "stripe_status": "not_live_in_this_package",
+      "tenant": "artispreneur",
+      "tier_required": "artispreneur-label"
+    }
+  ]
+}

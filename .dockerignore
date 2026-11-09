@@ -1,0 +1,7 @@
+# Never bake demo entitlements or local state into an image.
+.env
+entitlements.json
+usage_ledger.jsonl
+__pycache__/
+*.pyc
+.git

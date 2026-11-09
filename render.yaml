@@ -1,0 +1,26 @@
+# Render deploy — https://dashboard.render.com
+# Primary host for the Artispreneur MCP. Vercel serverless stays as a
+# fallback only: it cannot hold a long-lived SSE stream or sessions across
+# invocations (see VERIFICATION.md — Vercel SSE verdict, 2026-11-08).
+#
+# Deploy (Blueprint): Render dashboard > New > Blueprint > connect the
+# diamitani/artispreneur-mcp GitHub repo (this directory is the repo root).
+# Or: New > Web Service > Docker, same repo, health check path /health.
+# Do NOT commit a real token. Set MCP_AUTH_TOKEN in the Render dashboard
+# (Environment > Environment Variables) after the first deploy, then
+# redeploy. After the first deploy, set BASE_URL to the Render URL
+# (https://artispreneur-mcp.onrender.com) so the landing page links
+# correctly, then redeploy once more.
+services:
+  - type: web
+    name: artispreneur-mcp
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: MCP_AUTH_TOKEN
+        sync: false
+      - key: BASE_URL
+        sync: false

@@ -1,0 +1,1023 @@
+{
+  "source": "artispreneur-music-layer/catalog.yaml",
+  "registry_version": "1.0.0",
+  "counts": {
+    "skills": 88,
+    "agents": 7,
+    "workflows": 5
+  },
+  "skills": [
+    {
+      "slug": "affiliate-crm-setup",
+      "name": "Set Up Affiliate / Partner CRM",
+      "description": "Set Up Affiliate / Partner CRM",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/affiliate-crm-setup/SKILL.md"
+    },
+    {
+      "slug": "artist-bio-writer",
+      "name": "Artist Bio Writer",
+      "description": "Artist Bio Writer",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "artist-bio-creator",
+      "source_path": "artispreneur-music-layer/skills/artist-bio-writer/SKILL.md"
+    },
+    {
+      "slug": "artist-business-plan",
+      "name": "Create Artist Business Plan from Onboarding",
+      "description": "Create Artist Business Plan from Onboarding",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": "artist-business-plan",
+      "source_path": "artispreneur-music-layer/skills/artist-business-plan/SKILL.md"
+    },
+    {
+      "slug": "artist-roadmap",
+      "name": "Build Artist Career Roadmap",
+      "description": "Build Artist Career Roadmap",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/artist-roadmap/SKILL.md"
+    },
+    {
+      "slug": "artist-website-builder",
+      "name": "Artist Website Builder",
+      "description": "Artist Website Builder",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/artist-website-builder/SKILL.md"
+    },
+    {
+      "slug": "audition-contest-discovery",
+      "name": "Discover Auditions and Talent Contests",
+      "description": "Discover Auditions and Talent Contests",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/audition-contest-discovery/SKILL.md"
+    },
+    {
+      "slug": "bank-income-tracking-connect",
+      "name": "Connect Bank Account for Income Tracking",
+      "description": "Connect Bank Account for Income Tracking",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/bank-income-tracking-connect/SKILL.md"
+    },
+    {
+      "slug": "banking-setup-guide",
+      "name": "Business Bank Account Setup Guide",
+      "description": "Business Bank Account Setup Guide",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": "open-business-bank-account",
+      "source_path": "artispreneur-music-layer/skills/banking-setup-guide/SKILL.md"
+    },
+    {
+      "slug": "booking-crm-pipeline",
+      "name": "Booking CRM Pipeline (HubSpot)",
+      "description": "Booking CRM Pipeline (HubSpot)",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/booking-crm-pipeline/SKILL.md"
+    },
+    {
+      "slug": "booking-form",
+      "name": "Booking Form for the Website",
+      "description": "Booking Form for the Website",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/booking-form/SKILL.md"
+    },
+    {
+      "slug": "booking-inquiry-emails",
+      "name": "Write Booking Inquiry Emails",
+      "description": "Write Booking Inquiry Emails",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": "find-outreach-targets",
+      "source_path": "artispreneur-music-layer/skills/booking-inquiry-emails/SKILL.md"
+    },
+    {
+      "slug": "brand-guidelines",
+      "name": "Artist Brand Guidelines",
+      "description": "Artist Brand Guidelines",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "write-brand-guidelines",
+      "source_path": "artispreneur-music-layer/skills/brand-guidelines/SKILL.md"
+    },
+    {
+      "slug": "calendar-management",
+      "name": "Manage Artist Calendar",
+      "description": "Manage Artist Calendar",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/calendar-management/SKILL.md"
+    },
+    {
+      "slug": "campaign-analytics-roi",
+      "name": "Track Campaign Analytics and ROI",
+      "description": "Track Campaign Analytics and ROI",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/campaign-analytics-roi/SKILL.md"
+    },
+    {
+      "slug": "caption-copy-brand",
+      "name": "Caption Copy Generation",
+      "description": "Caption Copy Generation",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/caption-copy-brand/SKILL.md"
+    },
+    {
+      "slug": "caption-templates-hooks",
+      "name": "Caption Templates and Hook Library",
+      "description": "Caption Templates and Hook Library",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/caption-templates-hooks/SKILL.md"
+    },
+    {
+      "slug": "catalogue-ai-enhancement",
+      "name": "AI Genre Tags and Sonic Descriptors",
+      "description": "AI Genre Tags and Sonic Descriptors",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/catalogue-ai-enhancement/SKILL.md"
+    },
+    {
+      "slug": "catalogue-display",
+      "name": "Shareable Catalogue Table and Grid",
+      "description": "Shareable Catalogue Table and Grid",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/catalogue-display/SKILL.md"
+    },
+    {
+      "slug": "catalogue-import",
+      "name": "Import Tracks into the Catalogue",
+      "description": "Import Tracks into the Catalogue",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": "upload-track-to-catalogue",
+      "source_path": "artispreneur-music-layer/skills/catalogue-import/SKILL.md"
+    },
+    {
+      "slug": "catalogue-metadata-extraction",
+      "name": "Extract Track Metadata",
+      "description": "Extract Track Metadata",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/catalogue-metadata-extraction/SKILL.md"
+    },
+    {
+      "slug": "catalogue-release-tagging",
+      "name": "Tag Tracks Released, Unreleased, or Vault",
+      "description": "Tag Tracks Released, Unreleased, or Vault",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/catalogue-release-tagging/SKILL.md"
+    },
+    {
+      "slug": "ccorp-incorporation",
+      "name": "Incorporate a C-Corp with the State",
+      "description": "Incorporate a C-Corp with the State",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/ccorp-incorporation/SKILL.md"
+    },
+    {
+      "slug": "confirmed-gig-calendar",
+      "name": "Confirmed Gig Calendar",
+      "description": "Confirmed Gig Calendar",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/confirmed-gig-calendar/SKILL.md"
+    },
+    {
+      "slug": "contract-field-customization",
+      "name": "Customize Contract Fields",
+      "description": "Customize Contract Fields",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/contract-field-customization/SKILL.md"
+    },
+    {
+      "slug": "contract-generation",
+      "name": "Generate Contracts from Templates",
+      "description": "Generate Contracts from Templates",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": "music-contract-agent-artispreneur-music-contract",
+      "source_path": "artispreneur-music-layer/skills/contract-generation/SKILL.md"
+    },
+    {
+      "slug": "contract-pdf-download",
+      "name": "Make Contracts Downloadable as PDF",
+      "description": "Make Contracts Downloadable as PDF",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/contract-pdf-download/SKILL.md"
+    },
+    {
+      "slug": "deal-terms-logging",
+      "name": "Log Deal Terms and Payments",
+      "description": "Log Deal Terms and Payments",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/deal-terms-logging/SKILL.md"
+    },
+    {
+      "slug": "dm-outreach",
+      "name": "Write DM Outreach (Instagram, X)",
+      "description": "Write DM Outreach (Instagram, X)",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": "social-dm-architect",
+      "source_path": "artispreneur-music-layer/skills/dm-outreach/SKILL.md"
+    },
+    {
+      "slug": "editorial-playlist-submission",
+      "name": "Submit to Editorial Playlists",
+      "description": "Submit to Editorial Playlists",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/editorial-playlist-submission/SKILL.md"
+    },
+    {
+      "slug": "ein-registration",
+      "name": "Register an EIN with the IRS",
+      "description": "Register an EIN with the IRS",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": "irs-ein-registration",
+      "source_path": "artispreneur-music-layer/skills/ein-registration/SKILL.md"
+    },
+    {
+      "slug": "email-inbox-management",
+      "name": "Manage Artist Email Inbox",
+      "description": "Manage Artist Email Inbox",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/email-inbox-management/SKILL.md"
+    },
+    {
+      "slug": "epk-builder",
+      "name": "Electronic Press Kit Builder",
+      "description": "Electronic Press Kit Builder",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "create-an-epk",
+      "source_path": "artispreneur-music-layer/skills/epk-builder/SKILL.md"
+    },
+    {
+      "slug": "esignature-enable",
+      "name": "Enable E-Signature on Contracts",
+      "description": "Enable E-Signature on Contracts",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/esignature-enable/SKILL.md"
+    },
+    {
+      "slug": "expense-categorization",
+      "name": "Categorize and Tag Artist Expenses",
+      "description": "Categorize and Tag Artist Expenses",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": "manage-business-expenses",
+      "source_path": "artispreneur-music-layer/skills/expense-categorization/SKILL.md"
+    },
+    {
+      "slug": "followup-sequence-automation",
+      "name": "Follow-Up Sequence Automation (n8n)",
+      "description": "Follow-Up Sequence Automation (n8n)",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": "outreach-automator",
+      "source_path": "artispreneur-music-layer/skills/followup-sequence-automation/SKILL.md"
+    },
+    {
+      "slug": "formation-document-vault",
+      "name": "Save Formation Documents to the Vault",
+      "description": "Save Formation Documents to the Vault",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/formation-document-vault/SKILL.md"
+    },
+    {
+      "slug": "formation-status-tracking",
+      "name": "Track Formation Status and Deadlines",
+      "description": "Track Formation Status and Deadlines",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/formation-status-tracking/SKILL.md"
+    },
+    {
+      "slug": "gig-filtering",
+      "name": "Filter Gig Opportunities by Fit",
+      "description": "Filter Gig Opportunities by Fit",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/gig-filtering/SKILL.md"
+    },
+    {
+      "slug": "google-search-ads-setup",
+      "name": "Google Search Ads for Artist Name and Tracks",
+      "description": "Google Search Ads for Artist Name and Tracks",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/google-search-ads-setup/SKILL.md"
+    },
+    {
+      "slug": "graphic-design-assets",
+      "name": "Graphic Design Assets",
+      "description": "Graphic Design Assets",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/graphic-design-assets/SKILL.md"
+    },
+    {
+      "slug": "income-goals",
+      "name": "Income Goals & Milestones",
+      "description": "Income Goals & Milestones",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/income-goals/SKILL.md"
+    },
+    {
+      "slug": "internal-crm-setup",
+      "name": "Set Up Internal Artist CRM",
+      "description": "Set Up Internal Artist CRM",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/internal-crm-setup/SKILL.md"
+    },
+    {
+      "slug": "llc-formation",
+      "name": "Form an LLC with the State",
+      "description": "Form an LLC with the State",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": "create-llc",
+      "source_path": "artispreneur-music-layer/skills/llc-formation/SKILL.md"
+    },
+    {
+      "slug": "logo-concepts",
+      "name": "AI-Assisted Logo Concepts",
+      "description": "AI-Assisted Logo Concepts",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "create-brand-logo",
+      "source_path": "artispreneur-music-layer/skills/logo-concepts/SKILL.md"
+    },
+    {
+      "slug": "merch-concepts",
+      "name": "Merch Concepts",
+      "description": "Merch Concepts",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "create-merch-designs",
+      "source_path": "artispreneur-music-layer/skills/merch-concepts/SKILL.md"
+    },
+    {
+      "slug": "merch-store",
+      "name": "Merch Store (Print-on-Demand)",
+      "description": "Merch Store (Print-on-Demand)",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": "set-up-merch-drop-shipping",
+      "source_path": "artispreneur-music-layer/skills/merch-store/SKILL.md"
+    },
+    {
+      "slug": "monthly-pl-summary",
+      "name": "Monthly Profit & Loss Summary",
+      "description": "Monthly Profit & Loss Summary",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/monthly-pl-summary/SKILL.md"
+    },
+    {
+      "slug": "npao-priority-management",
+      "name": "Manage Priorities with NPAO",
+      "description": "Manage Priorities with NPAO",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/npao-priority-management/SKILL.md"
+    },
+    {
+      "slug": "one-sheeter",
+      "name": "One-Sheeter",
+      "description": "One-Sheeter",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/one-sheeter/SKILL.md"
+    },
+    {
+      "slug": "open-mic-residency-discovery",
+      "name": "Discover Open Mics and Residencies",
+      "description": "Discover Open Mics and Residencies",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/open-mic-residency-discovery/SKILL.md"
+    },
+    {
+      "slug": "organic-social-posts",
+      "name": "Draft Organic Social Posts",
+      "description": "Draft Organic Social Posts",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/organic-social-posts/SKILL.md"
+    },
+    {
+      "slug": "outreach-status-tracking",
+      "name": "Track Outreach Status",
+      "description": "Track Outreach Status",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/outreach-status-tracking/SKILL.md"
+    },
+    {
+      "slug": "ownership-valuation-table",
+      "name": "Ownership Splits and Asset Valuation Table",
+      "description": "Ownership Splits and Asset Valuation Table",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/ownership-valuation-table/SKILL.md"
+    },
+    {
+      "slug": "paid-social-strategy",
+      "name": "Paid Social Strategy (Meta & TikTok Ads)",
+      "description": "Paid Social Strategy (Meta & TikTok Ads)",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/paid-social-strategy/SKILL.md"
+    },
+    {
+      "slug": "partnerships-onepager",
+      "name": "Partnerships One-Pager",
+      "description": "Partnerships One-Pager",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/partnerships-onepager/SKILL.md"
+    },
+    {
+      "slug": "personalized-outreach",
+      "name": "Personalize Outreach Per Contact",
+      "description": "Personalize Outreach Per Contact",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": "outreach-automator",
+      "source_path": "artispreneur-music-layer/skills/personalized-outreach/SKILL.md"
+    },
+    {
+      "slug": "pitch-email-blogs-playlists-press",
+      "name": "Write Pitch Emails for Blogs, Playlists, and Press",
+      "description": "Write Pitch Emails for Blogs, Playlists, and Press",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/pitch-email-blogs-playlists-press/SKILL.md"
+    },
+    {
+      "slug": "post-scheduling-tracking",
+      "name": "Schedule and Track Social Posts",
+      "description": "Schedule and Track Social Posts",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/post-scheduling-tracking/SKILL.md"
+    },
+    {
+      "slug": "post-templates-brand",
+      "name": "Post Templates (Canva/Figma)",
+      "description": "Post Templates (Canva/Figma)",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/post-templates-brand/SKILL.md"
+    },
+    {
+      "slug": "prerelease-campaign-plan",
+      "name": "Build a Pre-Release Campaign Plan",
+      "description": "Build a Pre-Release Campaign Plan",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/prerelease-campaign-plan/SKILL.md"
+    },
+    {
+      "slug": "press-page-assembly",
+      "name": "Media / Press Page Assembly",
+      "description": "Media / Press Page Assembly",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/press-page-assembly/SKILL.md"
+    },
+    {
+      "slug": "press-release-bio-copy",
+      "name": "Write Press Release and Artist Bio Copy",
+      "description": "Write Press Release and Artist Bio Copy",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/press-release-bio-copy/SKILL.md"
+    },
+    {
+      "slug": "pro-claim-tracks",
+      "name": "Claim Published Tracks on the PRO",
+      "description": "Claim Published Tracks on the PRO",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/pro-claim-tracks/SKILL.md"
+    },
+    {
+      "slug": "pro-registration",
+      "name": "Register Music with a PRO",
+      "description": "Register Music with a PRO",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "active",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/pro-registration/SKILL.md"
+    },
+    {
+      "slug": "pro-signup",
+      "name": "Sign Up for a Performing Rights Organization",
+      "description": "Sign Up for a Performing Rights Organization",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/pro-signup/SKILL.md"
+    },
+    {
+      "slug": "pro-unclaimed-track-audit",
+      "name": "Audit the PRO for Unclaimed Tracks",
+      "description": "Audit the PRO for Unclaimed Tracks",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/pro-unclaimed-track-audit/SKILL.md"
+    },
+    {
+      "slug": "programmatic-display-strategy",
+      "name": "Programmatic Display Advertising Strategy",
+      "description": "Programmatic Display Advertising Strategy",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/programmatic-display-strategy/SKILL.md"
+    },
+    {
+      "slug": "release-day-content-plan",
+      "name": "Build the Release-Day Content Plan",
+      "description": "Build the Release-Day Content Plan",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/release-day-content-plan/SKILL.md"
+    },
+    {
+      "slug": "royalty-dashboard",
+      "name": "Royalty Dashboard Table",
+      "description": "Royalty Dashboard Table",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/royalty-dashboard/SKILL.md"
+    },
+    {
+      "slug": "royalty-income-tracking",
+      "name": "Track Music Royalty Income",
+      "description": "Track Music Royalty Income",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/royalty-income-tracking/SKILL.md"
+    },
+    {
+      "slug": "royalty-spreadsheet",
+      "name": "Royalty Payment Spreadsheet",
+      "description": "Royalty Payment Spreadsheet",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/royalty-spreadsheet/SKILL.md"
+    },
+    {
+      "slug": "royalty-tracking",
+      "name": "Track Royalties Across DSPs and PROs",
+      "description": "Track Royalties Across DSPs and PROs",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": "track-royalties-on-dsps",
+      "source_path": "artispreneur-music-layer/skills/royalty-tracking/SKILL.md"
+    },
+    {
+      "slug": "self-owned-track-contracts",
+      "name": "Contracts for Self-Owned Tracks",
+      "description": "Contracts for Self-Owned Tracks",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/self-owned-track-contracts/SKILL.md"
+    },
+    {
+      "slug": "shortform-video-scripts",
+      "name": "Short-Form Video Scripts (Reels/TikTok)",
+      "description": "Short-Form Video Scripts (Reels/TikTok)",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/shortform-video-scripts/SKILL.md"
+    },
+    {
+      "slug": "show-income-tracking",
+      "name": "Track Live Performance Income",
+      "description": "Track Live Performance Income",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/show-income-tracking/SKILL.md"
+    },
+    {
+      "slug": "showcase-discovery",
+      "name": "Discover Music Showcases",
+      "description": "Discover Music Showcases",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/showcase-discovery/SKILL.md"
+    },
+    {
+      "slug": "signed-contract-upload",
+      "name": "Upload Signed Contracts to File Storage",
+      "description": "Upload Signed Contracts to File Storage",
+      "category": "legal",
+      "agent": "legal-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/signed-contract-upload/SKILL.md"
+    },
+    {
+      "slug": "social-content-calendar",
+      "name": "Build a Social Media Content Calendar",
+      "description": "Build a Social Media Content Calendar",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/social-content-calendar/SKILL.md"
+    },
+    {
+      "slug": "social-content-calendar-brand",
+      "name": "Social Media Content Calendar",
+      "description": "Social Media Content Calendar",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/social-content-calendar-brand/SKILL.md"
+    },
+    {
+      "slug": "split-sheet-collab-checklist",
+      "name": "Collaboration Split Sheet Checklist",
+      "description": "Collaboration Split Sheet Checklist",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/split-sheet-collab-checklist/SKILL.md"
+    },
+    {
+      "slug": "split-sheet-generator",
+      "name": "Generate Split Sheets",
+      "description": "Generate Split Sheets",
+      "category": "publishing",
+      "agent": "publishing-manager",
+      "status": "draft",
+      "extends": "create-split-sheet-agreement",
+      "source_path": "artispreneur-music-layer/skills/split-sheet-generator/SKILL.md"
+    },
+    {
+      "slug": "status-reporting",
+      "name": "Produce Artist Status Reports",
+      "description": "Produce Artist Status Reports",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/status-reporting/SKILL.md"
+    },
+    {
+      "slug": "sub-agent-orchestration",
+      "name": "Orchestrate Sub-Agents",
+      "description": "Orchestrate Sub-Agents",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/sub-agent-orchestration/SKILL.md"
+    },
+    {
+      "slug": "sync-income-tracking",
+      "name": "Track Sync Licensing Income",
+      "description": "Track Sync Licensing Income",
+      "category": "finance",
+      "agent": "finance-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/sync-income-tracking/SKILL.md"
+    },
+    {
+      "slug": "task-delegation-followup",
+      "name": "Delegate Tasks and Chase Follow-Up",
+      "description": "Delegate Tasks and Chase Follow-Up",
+      "category": "operations",
+      "agent": "day-to-day-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/task-delegation-followup/SKILL.md"
+    },
+    {
+      "slug": "ticketing-integration",
+      "name": "Ticketing Integration",
+      "description": "Ticketing Integration",
+      "category": "brand",
+      "agent": "brand-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/ticketing-integration/SKILL.md"
+    },
+    {
+      "slug": "tour-support-slot-discovery",
+      "name": "Discover Tour Support Slots",
+      "description": "Discover Tour Support Slots",
+      "category": "booking",
+      "agent": "booking-manager",
+      "status": "draft",
+      "extends": "tour-tracker",
+      "source_path": "artispreneur-music-layer/skills/tour-support-slot-discovery/SKILL.md"
+    },
+    {
+      "slug": "youtube-preroll-setup",
+      "name": "YouTube Pre-Roll Ad Setup",
+      "description": "YouTube Pre-Roll Ad Setup",
+      "category": "pr",
+      "agent": "pr-manager",
+      "status": "draft",
+      "extends": null,
+      "source_path": "artispreneur-music-layer/skills/youtube-preroll-setup/SKILL.md"
+    }
+  ],
+  "agents": [
+    {
+      "slug": "booking-manager",
+      "skill_count": 13,
+      "skills": [
+        "audition-contest-discovery",
+        "booking-crm-pipeline",
+        "booking-inquiry-emails",
+        "confirmed-gig-calendar",
+        "deal-terms-logging",
+        "dm-outreach",
+        "followup-sequence-automation",
+        "gig-filtering",
+        "open-mic-residency-discovery",
+        "outreach-status-tracking",
+        "personalized-outreach",
+        "showcase-discovery",
+        "tour-support-slot-discovery"
+      ]
+    },
+    {
+      "slug": "brand-manager",
+      "skill_count": 17,
+      "skills": [
+        "artist-bio-writer",
+        "artist-website-builder",
+        "booking-form",
+        "brand-guidelines",
+        "caption-copy-brand",
+        "epk-builder",
+        "graphic-design-assets",
+        "logo-concepts",
+        "merch-concepts",
+        "merch-store",
+        "one-sheeter",
+        "partnerships-onepager",
+        "post-templates-brand",
+        "press-page-assembly",
+        "shortform-video-scripts",
+        "social-content-calendar-brand",
+        "ticketing-integration"
+      ]
+    },
+    {
+      "slug": "day-to-day-manager",
+      "skill_count": 10,
+      "skills": [
+        "affiliate-crm-setup",
+        "artist-business-plan",
+        "artist-roadmap",
+        "calendar-management",
+        "email-inbox-management",
+        "internal-crm-setup",
+        "npao-priority-management",
+        "status-reporting",
+        "sub-agent-orchestration",
+        "task-delegation-followup"
+      ]
+    },
+    {
+      "slug": "finance-manager",
+      "skill_count": 8,
+      "skills": [
+        "bank-income-tracking-connect",
+        "banking-setup-guide",
+        "expense-categorization",
+        "income-goals",
+        "monthly-pl-summary",
+        "royalty-income-tracking",
+        "show-income-tracking",
+        "sync-income-tracking"
+      ]
+    },
+    {
+      "slug": "legal-manager",
+      "skill_count": 10,
+      "skills": [
+        "ccorp-incorporation",
+        "contract-field-customization",
+        "contract-generation",
+        "contract-pdf-download",
+        "ein-registration",
+        "esignature-enable",
+        "formation-document-vault",
+        "formation-status-tracking",
+        "llc-formation",
+        "signed-contract-upload"
+      ]
+    },
+    {
+      "slug": "pr-manager",
+      "skill_count": 14,
+      "skills": [
+        "campaign-analytics-roi",
+        "caption-templates-hooks",
+        "editorial-playlist-submission",
+        "google-search-ads-setup",
+        "organic-social-posts",
+        "paid-social-strategy",
+        "pitch-email-blogs-playlists-press",
+        "post-scheduling-tracking",
+        "prerelease-campaign-plan",
+        "press-release-bio-copy",
+        "programmatic-display-strategy",
+        "release-day-content-plan",
+        "social-content-calendar",
+        "youtube-preroll-setup"
+      ]
+    },
+    {
+      "slug": "publishing-manager",
+      "skill_count": 16,
+      "skills": [
+        "catalogue-ai-enhancement",
+        "catalogue-display",
+        "catalogue-import",
+        "catalogue-metadata-extraction",
+        "catalogue-release-tagging",
+        "ownership-valuation-table",
+        "pro-claim-tracks",
+        "pro-registration",
+        "pro-signup",
+        "pro-unclaimed-track-audit",
+        "royalty-dashboard",
+        "royalty-spreadsheet",
+        "royalty-tracking",
+        "self-owned-track-contracts",
+        "split-sheet-collab-checklist",
+        "split-sheet-generator"
+      ]
+    }
+  ]
+}

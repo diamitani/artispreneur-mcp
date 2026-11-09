@@ -1,0 +1,163 @@
+{
+  "_note": "Agent DIRECTORY only. This server lists agents; it does not run agent loops. The 7 Artispreneur music agents from artispreneur-music-layer/catalog.yaml (all draft, because 87 of 88 music skills are draft). The loop runs in Rostr / Muse / Claude, using the skills this server serves.",
+  "agents": [
+    {
+      "slug": "booking-manager",
+      "tenant": "artispreneur",
+      "name": "Booking Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 13,
+      "skills": [
+        "audition-contest-discovery",
+        "booking-crm-pipeline",
+        "booking-inquiry-emails",
+        "confirmed-gig-calendar",
+        "deal-terms-logging",
+        "dm-outreach",
+        "followup-sequence-automation",
+        "gig-filtering",
+        "open-mic-residency-discovery",
+        "outreach-status-tracking",
+        "personalized-outreach",
+        "showcase-discovery",
+        "tour-support-slot-discovery"
+      ]
+    },
+    {
+      "slug": "brand-manager",
+      "tenant": "artispreneur",
+      "name": "Brand Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 17,
+      "skills": [
+        "artist-bio-writer",
+        "artist-website-builder",
+        "booking-form",
+        "brand-guidelines",
+        "caption-copy-brand",
+        "epk-builder",
+        "graphic-design-assets",
+        "logo-concepts",
+        "merch-concepts",
+        "merch-store",
+        "one-sheeter",
+        "partnerships-onepager",
+        "post-templates-brand",
+        "press-page-assembly",
+        "shortform-video-scripts",
+        "social-content-calendar-brand",
+        "ticketing-integration"
+      ]
+    },
+    {
+      "slug": "day-to-day-manager",
+      "tenant": "artispreneur",
+      "name": "Day To Day Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 10,
+      "skills": [
+        "affiliate-crm-setup",
+        "artist-business-plan",
+        "artist-roadmap",
+        "calendar-management",
+        "email-inbox-management",
+        "internal-crm-setup",
+        "npao-priority-management",
+        "status-reporting",
+        "sub-agent-orchestration",
+        "task-delegation-followup"
+      ]
+    },
+    {
+      "slug": "finance-manager",
+      "tenant": "artispreneur",
+      "name": "Finance Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 8,
+      "skills": [
+        "bank-income-tracking-connect",
+        "banking-setup-guide",
+        "expense-categorization",
+        "income-goals",
+        "monthly-pl-summary",
+        "royalty-income-tracking",
+        "show-income-tracking",
+        "sync-income-tracking"
+      ]
+    },
+    {
+      "slug": "legal-manager",
+      "tenant": "artispreneur",
+      "name": "Legal Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 10,
+      "skills": [
+        "ccorp-incorporation",
+        "contract-field-customization",
+        "contract-generation",
+        "contract-pdf-download",
+        "ein-registration",
+        "esignature-enable",
+        "formation-document-vault",
+        "formation-status-tracking",
+        "llc-formation",
+        "signed-contract-upload"
+      ]
+    },
+    {
+      "slug": "pr-manager",
+      "tenant": "artispreneur",
+      "name": "Pr Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 14,
+      "skills": [
+        "campaign-analytics-roi",
+        "caption-templates-hooks",
+        "editorial-playlist-submission",
+        "google-search-ads-setup",
+        "organic-social-posts",
+        "paid-social-strategy",
+        "pitch-email-blogs-playlists-press",
+        "post-scheduling-tracking",
+        "prerelease-campaign-plan",
+        "press-release-bio-copy",
+        "programmatic-display-strategy",
+        "release-day-content-plan",
+        "social-content-calendar",
+        "youtube-preroll-setup"
+      ]
+    },
+    {
+      "slug": "publishing-manager",
+      "tenant": "artispreneur",
+      "name": "Publishing Manager",
+      "status": "draft",
+      "status_note": "Agent definition exists in artispreneur-music-layer/agents/<slug>/AGENT.md; its skills are draft (87 of 88 music skills draft), so this agent is listed for discovery, not executed by this server. The agent loop runs in Rostr/Muse, this server only serves skills.",
+      "skill_count": 16,
+      "skills": [
+        "catalogue-ai-enhancement",
+        "catalogue-display",
+        "catalogue-import",
+        "catalogue-metadata-extraction",
+        "catalogue-release-tagging",
+        "ownership-valuation-table",
+        "pro-claim-tracks",
+        "pro-registration",
+        "pro-signup",
+        "pro-unclaimed-track-audit",
+        "royalty-dashboard",
+        "royalty-spreadsheet",
+        "royalty-tracking",
+        "self-owned-track-contracts",
+        "split-sheet-collab-checklist",
+        "split-sheet-generator"
+      ]
+    }
+  ]
+}

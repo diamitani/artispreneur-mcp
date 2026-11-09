@@ -1,0 +1,57 @@
+---
+name: entity-readiness-execution-health-skill-entity-readiness-execution-health
+description: "LLM-agnostic workflow automation skill that instructs any AI model (Claude, GPT-4o, Gemini, Cursor) to run read-only post-run validation of the Atlas Entity Readiness Change Report weekly n8n workflow (EirKWJBySSXugv3a, Onspring Report 954): the inspector script rejects foreign executions, reads only the workflow and execution GET endpoints, confirms success/delivery/baseline writes and activation state, and classifies failures (auth, data-shape, HTTP, delivery, storage, unknown) with a safe human action - never retrying, stopping, activating, or editing anything. Use when read-only post-run validation, error triage, or confirming that this specific weekly entity-readiness report is safe to deploy."
+---
+
+# Entity Readiness Execution Health
+
+Use this skill only for the Atlas Entity Readiness Change Report. It is read-only: never retry, stop, activate, deactivate, create, update, or delete anything in n8n.
+
+## Project scope
+
+- n8n workflow: `Entity Readiness Change Report - Weekly` (`EirKWJBySSXugv3a`)
+- Source: Onspring Report 954
+- Baseline table: `entity_readiness_baseline` (`DWg0YxdKbQcNcwtv`)
+- Ready statuses: `Ready to Hire Locals` and `Ready to Hire All`
+
+## Run the inspector
+
+Require an approved `N8N_ENTITY_REPORT_API_KEY` environment variable. The script also accepts `N8N_API_KEY` for backward compatibility. Do not print, save, paste, or hard-code the key in this skill.
+
+```bash
+export N8N_ENTITY_REPORT_API_KEY="..."
+python3 scripts/inspect_execution.py --execution "<execution URL or ID>"
+```
+
+The workflow ID is intentionally fixed. The script rejects an execution from any other workflow and calls only `GET /api/v1/workflows/{id}` and `GET /api/v1/executions/{id}?includeData=true`.
+
+## Interpret the result
+
+- Treat `status: success`, `error: null`, and all node errors empty as a successful run.
+- Confirm delivery nodes report success, and storage nodes processed the expected number of items.
+- Verify `Normalize Readiness` processed the intended country count; inspect `Diff Readiness` for `seeded`, `hadBaseline`, and `changeCount`; then confirm both email nodes and the Data Table upsert completed.
+- If `workflow_active` is false, state plainly that a schedule will not run until a human activates it. Do not activate it yourself.
+- Cite execution IDs and distinguish facts from inference. Never describe a run as deployed merely because a manual run passed.
+
+## Error handling
+
+Classify failures as authentication, data-shape, source/downstream HTTP, delivery, storage, or unknown. Report the failing node, message, and a safe human action. For missing execution data or unavailable API access, ask for an execution URL or exported JSON rather than using undocumented endpoints.
+
+## Inputs
+- `execution` (string, required) - execution URL or ID; must belong to workflow EirKWJBySSXugv3a
+- `N8N_ENTITY_REPORT_API_KEY` (env, required; N8N_API_KEY accepted for backward compatibility) - approved key; never printed, saved, pasted, or hard-coded
+
+## Outputs
+- Verdict: success (status success, error null, all node errors empty), delivery confirmation, storage counts, Diff Readiness state (seeded/hadBaseline/changeCount), workflow_active state
+- Failure classification: authentication / data-shape / source-downstream HTTP / delivery / storage / unknown, with the failing node, message, and a safe human action
+
+## Example
+Input: triage a failed Atlas weekly run.
+1. Export the approved key; run the inspector against the execution ID.
+2. Classify: e.g. data-shape failure at Normalize Readiness -> report the node, message, and the safe human action (check the Onspring pull).
+3. Never retry or activate from here - human action only.
+
+## Errors & edge cases
+- Read-only is absolute: never retry, stop, activate, deactivate, create, update, or delete anything in n8n.
+- workflow_active false -> a schedule will not run until a human activates it.
+- Missing execution data or API access: ask for an execution URL or exported JSON, never use undocumented endpoints.

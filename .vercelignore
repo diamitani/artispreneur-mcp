@@ -1,0 +1,18 @@
+# Excluded from the Vercel deployment upload. The functions need only:
+# api/, skills/, skills-artispreneur/, data/, skills-index.json, packs.json,
+# agents.json, vercel.json. Everything else stays local.
+# SECURITY: entitlements.json (DEMO keys) must never reach a public URL.
+# The api/_core.py VERCEL guard is the second line of defence.
+entitlements.json
+.env*
+usage_ledger.jsonl
+test_smoke.py
+scripts/
+Dockerfile
+.dockerignore
+.gitignore
+server.py
+README.md
+VERIFICATION.md
+GO-LIVE-CHECKLIST.md
+.vercel
